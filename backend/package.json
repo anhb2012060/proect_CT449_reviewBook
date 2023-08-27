@@ -1,0 +1,31 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/tranduyanhb2012060/B2012060_TranDuyAnh_CT44903_BTL.git"
+  },
+  "keywords": [
+    "library",
+    "book"
+  ],
+  "author": "Duy Anh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
